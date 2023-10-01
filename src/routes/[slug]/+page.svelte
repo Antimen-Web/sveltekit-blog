@@ -7,4 +7,8 @@
     <meta property="og:type" content="article" />
 </svelte:head>
 
-<svelte:component this={data.content} />
+<article>
+<div class="prose">
+    <svelte:component this={data.content} />
+</div>
+</article>

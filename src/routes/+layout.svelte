@@ -19,7 +19,6 @@
         <PageTransition url={data.url}>
             <slot/>
         </PageTransition>
-
     </main>
 
     <Footer/>
